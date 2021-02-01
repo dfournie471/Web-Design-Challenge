@@ -25,7 +25,7 @@ body{
 
   #floated{
     float: left;
-    padding-right:50px;
+    padding-right:25px;
     padding-bottom: 15px;
     padding-top:50px;
     
@@ -54,6 +54,8 @@ body{
   border-bottom: 1px solid gray;
 }
 .box-2 img{
+    width:250;
+    height:300;
     padding-top:25px;
     padding-bottom:10px;
     padding-left:25px;
@@ -94,7 +96,7 @@ body{
 .box-3 {
     float:left;
     width: 800px;
-    height: 1100px;
+    height: 950px;
     margin-top:10px;
     margin-left:290px;
     padding: 25px;
@@ -118,6 +120,16 @@ body{
         margin-top:10px;
         margin-bottom:0px;
     }
+    .box-1 img{
+        width:350px;
+        height:350px;
+        padding-right:10px;
+        margin-right:10px;
+    }
+    .box-1 p{
+        font-size: small;
+        padding-left:10px;
+    }
     .box-2{
         width:750px;
         height:550px;
@@ -128,7 +140,7 @@ body{
     }
     .box-2 img{
         float: left;
-        width:150px;
+        width:160px;
         height:300px;
     }
     .card img{
@@ -146,6 +158,14 @@ body{
     margin-left: 10px;
     margin-top:10px;
     margin-bottom:0px;
+   }
+   .box-3 img{
+       width:600px;
+       height:350px;
+   }
+   .box-3 p{
+       font-size: small;
+       padding-right:25px;
    }
 }
 

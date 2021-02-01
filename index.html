@@ -5,14 +5,12 @@
       <title>Welcome to Weather Analysis!</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="index_style.css">
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      
   </head>
   <body>
     <nav class="navbar navbar-expand-md bg-info navbar-dark">
       <!-- Brand -->
-      <a class="navbar-brand bg-info " href="#">Latitude</a>
+      <a class="navbar-brand bg-info " href="index.html">Latitude</a>
     
       <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler bg-info" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -31,9 +29,9 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="Max_Temperature.html">Max Temperature</a></li>
-              <li><a class="dropdown-item" href="facebook.com">Humidity</a></li>
-              <li><a class="dropdown-item" href="facebook.com">Cloudiness</a></li>
-              <li><a class="dropdown-item" href="facebook.com">Wind Speed</a></li>
+              <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
+              <li><a class="dropdown-item" href="Cloudiness.html">Cloudiness</a></li>
+              <li><a class="dropdown-item" href="Wind _Speed.html">Wind Speed</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -63,46 +61,29 @@
       </div>
         <div class="box-1">
             <h1>Summary: Latitude vs. X</h1>
-            <img id="floated" src="https://picsum.photos/200/300" alt="a place holder">
-            <p>In nibh arcu, semper ut pellentesque et, hendrerit et nibh. 
-                Nullam fringilla varius nisl at rhoncus. 
-                Nam quam mauris, elementum in luctus ut, fringilla at sem.
-                Nam vitae posuere dui. 
-                Etiam non tortor in ex finibus scelerisque. 
-                Aenean fringilla eleifend nunc. 
-                Phasellus lobortis sapien et lobortis rutrum. 
-                Cras lobortis consequat diam vel tincidunt. 
-                Phasellus rhoncus magna vel lacus congue viverra.<br><br>
+            <img id="floated" src="Resources/assets/images/Fig1.png" width="450px" height="450px" alt="Max Temperature graph">
+            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this,
+              we first pulled data from OpenWeatherMap API to assemble a dataset on over 500 cities. <br><br>
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Nullam massa eros, fermentum vel fermentum et, 
-                convallis quis enim. Proin nec est in eros aliquet tempor. 
-                Sed ultricies congue nibh at tincidunt. 
-                Nullam nec scelerisque ex. In finibus enim vitae ipsum cursus, 
-                non blandit leo malesuada. Donec nec scelerisque justo, 
-                vitae gravida turpis. Aenean quam mauris, dictum et molestie sed, 
-                maximus vitae odio. Proin aliquam, arcu at euismod dignissim, 
-                nisl ex molestie dui, a semper lorem nunc nec est. 
-                Suspendisse volutpat, dolor eget maximus pharetra, 
-                velit justo posuere sapien, in vehicula mi ipsum ac nunc. 
-                Sed sem quam, finibus in hendrerit eget, accumsan non nisi. 
-                Nam sed fringilla est, posuere suscipit enim. 
-                Pellentesque volutpat velit vel quam imperdiet commodo. 
-                Nam vel ultrices nisi.
+              After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included:
+              temperature, cloudiness,wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis,
+              as well as explinations and descriptions of any trends and correlations witnessed.
             
             </p>
         </div>
         <div class="box-2">
           <h1>Visualizations</h1>
-            <a href="https://www.facebook.com/"><img src="https://picsum.photos/150/250" alt="a place holder"></a>
-            <a href="https://www.facebook.com/"><img src="https://picsum.photos/150/250" alt="a place holder"></a>
-            <a href="https://www.facebook.com/"><img src="https://picsum.photos/150/250" alt="a place holder"></a>
-            <a href="https://www.facebook.com/"><img src="https://picsum.photos/150/250"alt="a place holder"></a>
+            <a href="Max_Temperature.html"><img src="Resources/assets/images/Fig1.png" width="175" height="250" alt="Max Temperature Graph"></a>
+            <a href="Humidity.html"><img src="Resources/assets/images/Fig2.png" width="175" height="250" alt="Humidity Graph"></a>
+            <a href="Cloudiness.html"><img src="Resources/assets/images/Fig3.png" width="175" height="250" alt="Cloudiness Graph"></a>
+            <a href="Wind _Speed.html"><img src="Resources/assets/images/Fig4.png" width="175" height="250" alt="Wind Speed Graph"></a>
 
         </div>
       
        
-        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>      
   </body>
 
 </html>
