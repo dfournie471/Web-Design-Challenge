@@ -8,10 +8,11 @@ body{
 }
 
 .box-1 {
+    float:left;
     width: 800px;
     height: 700px;
-    margin: 200px;
-    margin-top:50px;
+    margin-top:10px;
+    margin-left:290px;
     padding: 25px;
     background-color: white;
   }
@@ -37,10 +38,114 @@ body{
 }
 
 .box-2{
-    width: 600px;
-    height: 600px;
-    margin-left: 200px;
-    margin-top:50px;
+    float:left;
+    width: 450px;
+    height: 750px;
+    margin-top:10px;
+    margin-left: 50px;
     padding: 25px;
     background-color: white;
 }
+
+.box-2 h1{
+    color: #5bc0de;
+    padding-top: 25px;
+    padding-bottom:50px;
+  border-bottom: 1px solid gray;
+}
+.box-2 img{
+    padding-top:25px;
+    padding-bottom:10px;
+    padding-left:25px;
+    margin-left:15px;
+    align-items: center;
+}
+
+.card img{
+    float:left;
+    padding:10px;
+}
+.card h1{
+    color: #5bc0de;
+    padding-top: 25px;
+    padding-bottom:50px;
+  border-bottom: 1px solid gray;
+}
+
+.card p{
+    padding-top:25px;
+    padding-bottom:25px;
+
+  }
+  .datahead h1{
+    color: #5bc0de;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom:25px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 0px;
+}
+.datahead p{
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom:25px;
+    margin-bottom:0px;
+}
+.box-3 {
+    float:left;
+    width: 800px;
+    height: 1100px;
+    margin-top:10px;
+    margin-left:290px;
+    padding: 25px;
+    background-color: white;
+}
+.box-3 h1{
+    color: #5bc0de;
+    padding-top: 25px;
+    padding-bottom:50px;
+  border-bottom: 1px solid gray;
+}
+.box-3 p{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+@media (max-width:767px){
+    .box-1{
+        width: 750px;
+        height: 700px;
+        margin-left: 10px;
+        margin-top:10px;
+        margin-bottom:0px;
+    }
+    .box-2{
+        width:750px;
+        height:550px;
+        margin-left: 10px;
+        margin-right:10px
+        
+       
+    }
+    .box-2 img{
+        float: left;
+        width:150px;
+        height:300px;
+    }
+    .card img{
+        width:700px;
+        height:500px;
+        border-bottom: 1px solid lightgray;
+    }
+   
+   body{
+       background:white;
+   }
+   .box-3{
+    width: 750px;
+    height: 700px;
+    margin-left: 10px;
+    margin-top:10px;
+    margin-bottom:0px;
+   }
+}
+
