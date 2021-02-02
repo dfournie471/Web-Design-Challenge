@@ -1,4 +1,5 @@
 # Web-Design-Challenge
+## Week 11 Homework
 ### David Fournie
 ### 02/01/21
 <br><br>
@@ -12,9 +13,9 @@ This website was my fist attempt to merge web design and data analysis. While I 
 ## Analysis on Data
 Note this is from API assignment with similar but not same datasets.<br><br>
 
-1.	The only data sets that show strong correlation between the Northern and Southern Hemispheres are the Latitude and Max Temp points. This is likely because positions near the equator are hot while positions that move away from the equator become colder. The other data sets gathered and tested had more variables to consider for their weather pattern than just proximity to the equator. For instance, cities that are close to the ocean would affect cloudiness and windiness rather than the position to the equator.<br>
+1.	The only data sets that show strong correlation between the Northern and Southern Hemispheres are the Latitude and Max Temp points. This is likely because positions near the equator are hot while positions that move away from the equator become colder. The other data sets gathered and tested had more variables to consider for their weather pattern than just proximity to the equator. For instance, cities that are close to the ocean would affect cloudiness and windiness rather than the position to the equator.<br><br>
 
-2.	Most of the random data generated above the equator. However, even with a lesser data set, the r values of each linear regression remain consistent with both hemispheres. The conclusions drawn from our sample are trusted for both the northern and southern hemisphere.<br>
+2.	Most of the random data generated above the equator. However, even with a lesser data set, the r values of each linear regression remain consistent with both hemispheres. The conclusions drawn from our sample are trusted for both the northern and southern hemisphere.<br><br>
 
-3.	Despite most of our data coming from the northern hemisphere, the countries in the northern hemisphere tended to have a higher humidity %. This was unexpected as hotter air holds more water in the air. Since the air is hotter the closer to the equator it is, It would be expected that the southern hemisphere cities would have higher humidities. It is unknown whether this is a trend or just because of the day that the data was collected on.
+3.	Despite most of our data coming from the northern hemisphere, the countries in the northern hemisphere tended to have a higher humidity %. This was unexpected as hotter air holds more water in the air. Since the air is hotter the closer to the equator it is, It would be expected that the southern hemisphere cities would have higher humidities. It is unknown whether this is a trend or just because of the day that the data was collected on.<br>
 
