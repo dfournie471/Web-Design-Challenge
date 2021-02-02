@@ -8,7 +8,7 @@
 <br><br>
 
 ## Notes on Development
-This website was my fist attempt to merge web design and data analysis. While I do not have complete mastery of either, I have tried to include some features that will help the end user. The most notable is the sticky table header. As the user scrolls through 500 cities, they can keep track of the column identifiers. I have also included borders around chart the visualization box that is currently selected so the user can see which chart is selected. I hope this is helpful for visualizing the data. Happy hunting!<br><br>
+This website was my fist attempt to merge web design and data analysis. While I do not have complete mastery of either, I have tried to include some features that will help the end user. The most notable is the sticky table header. As the user scrolls through 500 cities, they can keep track of the column identifiers. I have also included borders around chart the visualization box that is currently selected so the user can see which chart is selected. I hope this is helpful for visualizing the data. Happy hunting!<br><br><br><br>
 
 ## Analysis on Data
 Note this is from API assignment with similar but not same datasets.<br><br>
